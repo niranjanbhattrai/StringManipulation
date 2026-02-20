@@ -1,8 +1,9 @@
+from Assessment import non_repeat_char, compress_using_count
 from module1 import reverse_string, check_anagrams, clean_string, total_sales_per_product, \
     unique_number_in_list, remove_duplicate_characters
 
 if __name__ == "__main__":
-
+    '''
     test_sentence  = "data engineering rocks"
     print(clean_string(test_sentence))
 
@@ -29,3 +30,6 @@ if __name__ == "__main__":
 
     input1 = "programming"
     print(remove_duplicate_characters(input1))
+    '''
+    print(non_repeat_char("sswwiibss"))
+    compress_using_count("sswibbss")
